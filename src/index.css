@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your global styles (e.g., styles/globals.css) */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000; /* Change the color to ensure visibility */
+    background-color: rgba(255, 255, 255, 0.5); /* Optional: Add a background color for better visibility */
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    transform: scale(1.1);
+}
